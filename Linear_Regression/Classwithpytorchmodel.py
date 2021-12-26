@@ -8,5 +8,5 @@ class LinearRegressionModel(nn.Module):
         super().__init__()
         self.linear = nn.Linear(1,1)
 
-    def forward(selfm,x):
+    def forward(self,x):
         return self.linear(x)
